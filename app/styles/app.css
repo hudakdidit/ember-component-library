@@ -1,0 +1,42 @@
+body {
+  background: #444;
+}
+
+.swatch {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.content-slider__button {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.content-slider {
+  display: flex;
+}
+
+.content-slider__container {
+  width: calc(100% - 100px);
+  overflow: hidden;
+  position: relative;
+}
+
+.content-slider__items {
+  white-space: nowrap;
+  transition: transform 300ms ease-out;
+}
+
+.container--narrow {
+  width: 320px;
+  margin: auto;
+  padding: 25px 0;
+  background: white;
+}
