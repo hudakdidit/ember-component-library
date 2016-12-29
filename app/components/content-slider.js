@@ -30,7 +30,7 @@ export default Ember.Component.extend({
       } else {
         this.set("currentSlide", currentSlide - 1);
       }
-      this.moveSlide(false);
+      this.moveSlide();
     }
   },
 
